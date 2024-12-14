@@ -1,0 +1,26 @@
+:root{
+  --bgColor: #181329;
+}
+.bg-color{
+  background-color:var(--bgColor);
+}
+.nav-item p{
+  padding-left: 5px;
+}
+
+.btn-connect-wallet{
+  background-color: var(--buttonBgColor);
+  color: var(--buttonTextColor);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  padding: 6px 20px;
+  border-style: none;
+  border-color: initial;
+  transition: all 0.3s ease 0s;
+  margin-bottom: 16px;
+}
+.mypoke-logo{
+  border-bottom: none !important;
+}

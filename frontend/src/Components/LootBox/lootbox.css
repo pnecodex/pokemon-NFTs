@@ -1,0 +1,55 @@
+:root{
+ --cardBgColor:#1e1835;
+ --textColor:#aca2cc;
+ --buttonBgColor: #4d38e5;
+ --buttonTextColor: #ffffff;
+}
+.card-bg-color{
+  background-color: var(--cardBgColor);
+}
+.card-img{
+  padding: 32px 40px 18px 40px;
+}
+.card-lootbox{
+  width: 228px;
+  margin: 0 auto;
+  padding: 0px;
+}
+.reward{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 4px;
+  text-align: center;
+}
+.cost{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 18px;
+  color: var(--textColor);
+}
+.you-will-get{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 18px;
+  color: var(--textColor);
+}
+.btn-unlock-wallet{
+  background-color: var(--buttonBgColor);
+  color: var(--buttonTextColor);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  padding: 6px 20px;
+  border-style: none;
+  border-color: initial;
+  transition: all 0.3s ease 0s;
+  margin-bottom: 16px;
+}
+.NFT-lootbox{
+  margin-left: 20px;
+  padding-top: 5px;
+}
